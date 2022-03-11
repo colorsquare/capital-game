@@ -1,0 +1,57 @@
+body {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Sniglet", cursive;
+}
+
+table {
+  min-width: 400px;
+  margin-top: 10px;
+  border-collapse: collapse;
+  /* font-family: 'Noto Sans', sans-serif; */
+}
+
+tr {
+  border-bottom: 1px solid #c5c5c5;
+}
+
+#tableHeader > td {
+  font-weight: bold;
+}
+
+#tableHeader {
+  border-bottom: 1px solid black;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.ui-autocomplete {
+  max-height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.delete {
+  margin-left: 5px;
+}
+
+#delete_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
